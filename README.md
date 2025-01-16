@@ -57,7 +57,9 @@ _ViewStart.cshtml ထဲမှာ
 }
 အဲ့ဒီမှာ ""ထဲက _Layout ကို master page လို့ ခေါ်ပါတယ်။ 
 
-master page ဆိုတာ page အတိုင်းအတွက် တူညီတဲ့ layout တွေကို ထပ်ခါထပ်ခါ ရေးစရာ မလိုအောင် layout ချထားတဲ့ page ဖြစ်ပါတယ်။ 
+### Master page
+
+- master page ဆိုတာ page အတိုင်းအတွက် တူညီတဲ့ layout တွေကို ထပ်ခါထပ်ခါ ရေးစရာ မလိုအောင် layout ချထားတဲ့ page ဖြစ်ပါတယ်။ 
 
 ဥပမာ header နဲ့ footer က page တိုင်းမှာ တူညီစွာ ရှိနေမယ်ဆိုရင် master page မှာ header နဲ့ footer ကို ရေးထားပြီး အခြား page တွေမှာ ရေးစရာမလိုပဲ body အပိုင်းကိုသာ ရေးရမှာဖြစ်ပါတယ်။ 
 
