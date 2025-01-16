@@ -1,12 +1,13 @@
 # ASP.NET-Core-Web-App-Model-View-Controller
 
 ### 2025-1-16
+
+### MVC Intro
 - အတိုကောက်ကတော့ MVC
 - Model
 - View
 - Controller
 - ဒီလိုပြောလို့ Model က အရင်လာတာ မဟုတ်ဘူး Controller က အရင်လာတာပါ။
-  
 
 - Controller => Logic => Processing => Data => Model => View (UI).
 
@@ -16,12 +17,16 @@
 
 - Client ဆိုတာ View ပါ။
 - Server ဆိုတာ Controller ပါ။
+  
+### MVC Singnature
 
 - MVC ရဲ့ program.cs မှာ ဆိုရင်
 - app.UseRouting();
 - app.UseAuthorization();
 - app.MapControllerRout();
 တို့ကို တွေ့ရမှာ ဖြစ်ပါတယ်။
+
+### Notice
 
 ဒီထဲမှာမှ app.MapControllerRout();မှာ သတိထားရမှာလေးတွေရှိပါတယ်။ 
 
