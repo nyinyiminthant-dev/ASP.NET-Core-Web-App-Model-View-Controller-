@@ -40,8 +40,21 @@ Controller က နေ ယူမယ်ဆိုရင် method(int id) or method
 url က 
 https://localhost:localhost3000/Home/Index?blogId=1 and https://localhost:localhost3000/Home/Index?userId=1  ဖြစ်သွားမှာပါ။ 
 
+### project ကို စ run မယ်ဆိုရင်
 
+pattern: "{controller=Home}/{action=Index}/{id?}"
 
+pattern အရ home ထဲက index ကိုသွားမှာပါ။ အဲ့ဒီကို မသွားခင် _ViewStart.cshtml ကို စပြီး ရောက်မှာဖြစ်ပါတယ်။ 
+
+_ViewStart.cshtml ထဲမှာ 
+@{
+ Layout = "_Layout";
+}
+အဲ့ဒီမှာ ""ထဲက _Layout ကို master page လို့ ခေါ်ပါတယ်။ 
+
+master page ဆိုတာ page အတိုင်းအတွက် တူညီတဲ့ layout တွေကို ထပ်ခါထပ်ခါ ရေးစရာ မလိုအောင် layout ချထားတဲ့ page ဖြစ်ပါတယ်။ 
+
+ဥပမာ header နဲ့ footer က page တိုင်းမှာ တူညီစွာ ရှိနေမယ်ဆိုရင် master page မှာ header နဲ့ footer ကို ရေးထားပြီး အခြား page တွေမှာ ရေးစရာမလိုပဲ body အပိုင်းကိုသာ ရေးရမှာဖြစ်ပါတယ်။ 
 
 
 
