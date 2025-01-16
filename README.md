@@ -8,13 +8,13 @@
 - ဒီလိုပြောလို့ Model က အရင်လာတာ မဟုတ်ဘူး Controller က အရင်လာတာပါ။
   
 
-Controller => Logic => Processing => Data => Model => View (UI).
+- Controller => Logic => Processing => Data => Model => View (UI).
 
-View (Submit) => Controller with (Model) => Processing => Data => View (UI).
+- View (Submit) => Controller with (Model) => Processing => Data => View (UI).
 
 - ဒီမှာ Client နဲ့ Server ဆိုပြီးရှိပါတယ်။
 
-  Client ဆိုတာ View ပါ။
-  Server ဆိုတာ Controller ပါ။
+- Client ဆိုတာ View ပါ။
+- Server ဆိုတာ Controller ပါ။
 
   
