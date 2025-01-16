@@ -17,4 +17,12 @@
 - Client ဆိုတာ View ပါ။
 - Server ဆိုတာ Controller ပါ။
 
-  
+- MVC ရဲ့ program.cs မှာ ဆိုရင်
+- app.UseRouting();
+- app.UseAuthorization();
+- app.MapControllerRout();
+တို့ကို တွေ့ရမှာ ဖြစ်ပါတယ်။
+
+
+
+
