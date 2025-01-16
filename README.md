@@ -1,4 +1,4 @@
-# ASP.NET-Core-Web-App-Model-View-Controller-
+# ASP.NET-Core-Web-App-Model-View-Controller
 
 ### 2025-1-16
 - အတိုကောက်ကတော့ MVC
